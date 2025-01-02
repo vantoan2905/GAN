@@ -20,7 +20,7 @@ Then navigate to the project folder:
 
 ```bash
 cd GAN_fake_image
-cd DCGAN
+cd DCGAN_v2
 ```
 Or you can navigate to the `model` folder:
 
