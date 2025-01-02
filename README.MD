@@ -19,12 +19,21 @@ git clone https://github.com/vantoan2905/GAN_fake_image.git
 ```
 
 Then navigate to the project folder:
+- For DCGAN version 1:
+Run command
+```bash
+cd GAN_fake_image
+cd DCGAN
+```
+- For DCGAN version 2:
 
 ```bash
 cd GAN_fake_image
-cd app
+cd DCGAN_v2
 ```
-Or you can navigate to the `model` folder:
+and read README file training step.
+
+Or you can navigate to the `develop` folder:
 
 ```bash
 cd model
@@ -53,6 +62,7 @@ pip install torch torchvision matplotlib pillow numpy
 
 ## Project Structure
 
+### DCGAN and DCGAN_v2
 The project consists of the following main files:
 
 - **`generator.py`**: Contains the `Generator` and `Generator_256` classes for creating generator models for different image sizes.
@@ -60,5 +70,11 @@ The project consists of the following main files:
 - **`customDataset.py`**: Custom dataset class for loading and transforming images.
 - **`train.py`**: Main script for training the GAN model, which includes training routines, model saving/loading, and image generation.
 
-## Training a GAN
+
+### STypeGAN
+
+- **`train.py`**: Main script for training the GAN model, which includes training routines, model saving/loading, and image generation.
+
+
+
 
