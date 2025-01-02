@@ -19,17 +19,28 @@ git clone https://github.com/vantoan2905/GAN_fake_image.git
 ```
 
 Then navigate to the project folder:
-- For DCGAN version 1:
 Run command
+
+- For DCGAN version 1:
+
 ```bash
 cd GAN_fake_image
 cd DCGAN
 ```
+
 - For DCGAN version 2:
 
 ```bash
 cd GAN_fake_image
 cd DCGAN_v2
+```
+
+- For Style GAN:
+
+```bash
+cd GAN_fake_image
+cd StyleGAN
+
 ```
 and read README file training step.
 
@@ -71,10 +82,14 @@ The project consists of the following main files:
 - **`train.py`**: Main script for training the GAN model, which includes training routines, model saving/loading, and image generation.
 
 
-### STypeGAN
+### STyleGAN
 
 - **`train.py`**: Main script for training the GAN model, which includes training routines, model saving/loading, and image generation.
 
 
+
+## License
+
+This code is released under the MIT License.
 
 
